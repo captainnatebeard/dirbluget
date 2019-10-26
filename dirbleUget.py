@@ -54,7 +54,7 @@ def request(url, outfile, saveFile, isDir):
 			else:
 				with open(newSaveFile, 'a') as file:
 					file.write(html)
-					print (html)
+					#print (html)
 			return True
 	except Exception as f:
 		#print (f)
